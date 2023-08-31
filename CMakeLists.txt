@@ -23,6 +23,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(test_31_08_23_GD_auth
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        secondwindow.h secondwindow.cpp secondwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET test_31_08_23_GD_auth APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
